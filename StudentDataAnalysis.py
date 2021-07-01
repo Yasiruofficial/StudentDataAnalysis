@@ -1,3 +1,5 @@
+# Conditional logic
+
 def MySwitch(credits_at_pass, credits_at_defer, credits_at_fail):
     if credits_at_pass == 120 and credits_at_defer == 0 and credits_at_fail == 0:
         print("Progress")
@@ -112,7 +114,7 @@ def MySwitch(credits_at_pass, credits_at_defer, credits_at_fail):
     else:
         print("Invalid Grade")
 
-
+# Function for grade calculation
 def FindGrade():
     Student = 1
     Count = [0, 0, 0, 0]
